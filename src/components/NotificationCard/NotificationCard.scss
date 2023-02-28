@@ -1,0 +1,35 @@
+:root {
+  --white: #ffffff;
+  --gray: #f4f3ee;
+  --gray-ligth: #aabcd0;
+  --gray-dark: #373c37;
+  --green: #01A5B1;
+  --blue: #3A98ff;
+  --orange: #ff5f1e;
+  --red: #d90429;
+  --blue-dark: #131e1f;
+  --black: #000000;
+}
+
+.Notification {
+  width: 100%;
+  display: flex;
+  flex: 4;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  border-radius: 10px;
+  padding: 10px;
+  color: #808080;
+  cursor: pointer;
+}
+
+.Order {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.Order-Card-Pedidos {
+  max-width: 500px;
+  margin: 10px;
+  border-left: 4px solid var(--green);
+}

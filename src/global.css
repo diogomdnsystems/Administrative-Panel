@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --white: #ffffff;
+  --gray: #f4f3ee;
+  --gray-ligth: #aabcd0;
+  --gray-dark: #373c37;
+  --green: #01A5B1;
+  --blue: #3A98ff;
+  --orange: #ff5f1e;
+  --red: #d90429;
+  --blue-dark: #131e1f;
+  --black: #000000;
+}
+
+body {
+  /* font-family: 'Nunito', sans-serif; */
+  font-family: 'Poppins', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}

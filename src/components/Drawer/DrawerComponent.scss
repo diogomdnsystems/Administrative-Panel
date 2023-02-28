@@ -1,0 +1,48 @@
+:root {
+  --white: #ffffff;
+  --gray: #f4f3ee;
+  --gray-ligth: #aabcd0;
+  --gray-dark: #373c37;
+  --green: #01A5B1;
+  --blue: #3A98ff;
+  --orange: #ff5f1e;
+  --red: #d90429;
+  --blue-dark: #131e1f;
+  --black: #000000;
+}
+
+.Drawer-Toolbar {
+  background-color: var(--green) !important;
+}
+
+.Drawer-IconButton{
+  color: var(--gray) !important;
+}
+.Drawer-IconButton:hover{
+  background-color: var(--green) !important;
+  color: var(--gray) !important;
+}
+
+.MuiDrawer-paper {
+  background-color: var(--gray-dark) !important;
+
+  .Drawer-ListItem:hover {
+    background-color: var(--blue-dark);
+    color: var(--gray);
+  }
+
+  .Drawer-ListItem:active {
+    border-left: 4px solid var(--green);
+    background-color: var(--blue-dark);
+    color: var(--gray);
+  }
+
+  .Drawer-Icon {
+    color: var(--gray) !important;
+  }
+
+  .Drawer-Text-Icon {
+    color: var(--gray) !important;
+  }
+
+}

@@ -1,0 +1,103 @@
+:root {
+  --white: #ffffff;
+  --gray: #f4f3ee;
+  --gray-ligth: #aabcd0;
+  --gray-dark: #373c37;
+  --green: #01a5b1;
+  --blue: #3a98ff;
+  --orange: #ff5f1e;
+  --red: #d90429;
+  --blue-dark: #131e1f;
+  --black: #000000;
+}
+
+.Products {
+  .Products-Card {
+    padding: 2rem;
+
+    .Products-Upload {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+
+      .input {
+        width: 30rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-family: "Poppins";
+      }
+
+      .input-text {
+        width: 30rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-family: "Poppins";
+      }
+
+      .input-description {
+        width: 62rem;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 0.8rem;
+        font-family: "Poppins";
+
+        .textarea {
+          width: 62rem;
+          border: none;
+          outline: none;
+          cursor: pointer;
+          font-size: 0.8rem;
+          font-family: "Poppins";
+        }
+      }
+    }
+  }
+
+  .Products-Button {
+    background-color: var(--green);
+    margin: 40px 20px 0px 0px;
+  }
+
+  .Products-Button:hover {
+    background-color: var(--green);
+    margin: 20px 20px 0px 0px;
+  }
+
+  .Product-Upload-Adc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+    .input {
+      width: 27rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-family: "Poppins";
+      margin-top: 10px;
+    }
+
+    .input-text {
+      width: 27rem;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      font-size: 0.8rem;
+      font-family: "Poppins";
+    }
+
+    .Products-Button-Adc {
+      width: 50px;
+      height: 50px;
+      background-color: var(--green);
+    }
+  }
+}
